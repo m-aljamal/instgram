@@ -49,7 +49,7 @@ const Header = () => {
         {/* right */}
         <div className="flex items-center justify-end space-x-4">
           <HomeIcon className="navBtn" />
-          <MenuIcon className="h-6 md:hidden cursor-pointer" />
+          <MenuIcon className="h-6 md:hidden cursor-pointer flex-shrink-0" />
           <div className=" relative">
             <PaperAirplaneIcon className="navBtn" />
             <div className=" absolute hidden md:flex -top-2 -right-1  text-xs w-5 h-5 bg-red-500 rounded-full  items-center justify-center animate-pulse text-white">
